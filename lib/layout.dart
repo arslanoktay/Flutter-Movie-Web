@@ -26,7 +26,7 @@ class _AppLaoutState extends State { // statefull olduğu için state tanımlanm
           children: [
             // First column for left pane section
             Container(
-              width: 170,
+              width: 150,
               child: Column(),
               color: Colors.indigo.withOpacity(0.95),
             ),
@@ -37,13 +37,13 @@ class _AppLaoutState extends State { // statefull olduğu için state tanımlanm
                 children: [
                   // Header
                   Container(
-                    height: 120,
+                    height: 100,
                     color: Colors.indigo.withOpacity(0.8),
                     child: Row(),
                   ),
                   // Filter
                   Container(
-                    height: 120,
+                    height: 100,
                     color: Colors.deepPurple.withOpacity(0.60),
                     child: Row(),
                   ),
